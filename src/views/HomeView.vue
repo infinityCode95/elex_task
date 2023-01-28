@@ -87,5 +87,9 @@ export default {
    margin: 0px 0px 0px 10%;
    align-self: center;
    color: #b9b9bd;
+   
+   @media (max-width: 700px) {
+      margin: 0 auto;
+   }
 }
 </style>
